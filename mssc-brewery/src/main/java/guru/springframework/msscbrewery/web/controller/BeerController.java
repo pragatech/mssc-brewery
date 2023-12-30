@@ -26,7 +26,7 @@ public class BeerController {
         return new ResponseEntity<>(beerService.getBeerById(beerId), HttpStatus.OK);
     }
 
-    @PostMapping()
+    @PostMapping({"/",""})
     public ResponseEntity<BeerDto> handlePost(
             @RequestBody BeerDto beerDto){
         BeerDto savedDto = beerService.saveNewBeer(beerDto);
@@ -44,7 +44,7 @@ public class BeerController {
 
     @DeleteMapping("{beerId}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void deleteBeer(UUID beerID){
-        beerService.deleteById(beerID);
+    public void deleteBeer(@PathVariable UUID beerId){
+        beerService.deleteById(beerId);
     }
 }

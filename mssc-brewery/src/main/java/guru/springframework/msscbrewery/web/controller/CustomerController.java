@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
 
-@RequestMapping("/api/v1/customer")
+@RequestMapping("/api/v1/customer/")
 @RestController
 public class CustomerController {
 
@@ -50,6 +50,7 @@ public class CustomerController {
 
     @DeleteMapping("{customerId}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
+    //@ResponseStatus(HttpStatus.BAD_REQUEST) //-- Added for testing Spring boot auto validation of HTTP response
     public void deleteCustomer(
            @PathVariable UUID customerId
     ){
