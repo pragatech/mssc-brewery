@@ -1,8 +1,8 @@
-package guru.springframework.sfgrestdocsexample.web.controller;
+package praga.springframework.sfgrestdocsexample.web.controller;
 
-import guru.springframework.sfgrestdocsexample.repositories.BeerRepository;
-import guru.springframework.sfgrestdocsexample.web.mappers.BeerMapper;
-import guru.springframework.sfgrestdocsexample.web.model.BeerDto;
+import praga.springframework.sfgrestdocsexample.repositories.BeerRepository;
+import praga.springframework.sfgrestdocsexample.web.mappers.BeerMapper;
+import praga.springframework.sfgrestdocsexample.web.model.BeerDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

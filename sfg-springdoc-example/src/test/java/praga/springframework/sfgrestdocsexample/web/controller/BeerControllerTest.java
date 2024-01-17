@@ -1,10 +1,10 @@
-package guru.springframework.sfgrestdocsexample.web.controller;
+package praga.springframework.sfgrestdocsexample.web.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import guru.springframework.sfgrestdocsexample.domain.Beer;
-import guru.springframework.sfgrestdocsexample.repositories.BeerRepository;
-import guru.springframework.sfgrestdocsexample.web.model.BeerDto;
-import guru.springframework.sfgrestdocsexample.web.model.BeerStyleEnum;
+import praga.springframework.sfgrestdocsexample.domain.Beer;
+import praga.springframework.sfgrestdocsexample.repositories.BeerRepository;
+import praga.springframework.sfgrestdocsexample.web.model.BeerDto;
+import praga.springframework.sfgrestdocsexample.web.model.BeerStyleEnum;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;

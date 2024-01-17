@@ -1,4 +1,4 @@
-package guru.springframework.sfgrestdocsexample;
+package praga.springframework.sfgrestdocsexample;
 
 
 import org.junit.jupiter.api.Test;

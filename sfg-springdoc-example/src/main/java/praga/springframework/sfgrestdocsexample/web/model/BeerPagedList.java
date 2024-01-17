@@ -1,4 +1,4 @@
-package guru.springframework.sfgrestdocsexample.web.model;
+package praga.springframework.sfgrestdocsexample.web.model;
 
 
 import org.springframework.data.domain.PageImpl;

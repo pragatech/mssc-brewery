@@ -1,7 +1,7 @@
-package guru.springframework.sfgrestdocsexample.bootstrap;
+package praga.springframework.sfgrestdocsexample.bootstrap;
 
-import guru.springframework.sfgrestdocsexample.domain.Beer;
-import guru.springframework.sfgrestdocsexample.repositories.BeerRepository;
+import praga.springframework.sfgrestdocsexample.domain.Beer;
+import praga.springframework.sfgrestdocsexample.repositories.BeerRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
